@@ -8,9 +8,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss(),],
   assetsInclude: ['**/*.svg'],
-  esbuild: {
-    supported: {
-      'data-url': true
-    }
-  }
+  base: '/franklyn-prueba-tecnica/',
+  
 })

@@ -23,7 +23,7 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              to="#"
+              to="https://github.com/x-frank23-x/prueba-tecnica-frontend-franklyn.git"
               className="font-mon font-medium text-[20px] leading-[100%] tracking-normal text-azul2 "
             >
               Link repo front
@@ -31,7 +31,7 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              to="#"
+              to="https://github.com/x-frank23-x/prueba-tecnica-backend-franklyn.git"
               className="font-mon font-medium text-[20px] leading-[100%] tracking-normal text-azul2"
             >
               Link repo back

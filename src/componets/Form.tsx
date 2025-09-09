@@ -42,7 +42,6 @@ const Form = ({ selectedCar, clearSelection, onSaved }: Props) => {
     register,
     handleSubmit,
     reset,
-    setValue,
     formState: { errors },
   } = useForm<FormData>({
     defaultValues: {
