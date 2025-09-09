@@ -13,7 +13,7 @@ import Create from "../assets/icons/Create"
 import FormButtons from "./FormButtons"
 import Notification from "./Notification"
 
-const API_URL = import.meta.env.DEV;
+const API_URL = import.meta.env.VITE_URL_PROD;
 
 type FormData = {
   vehiculo: string
