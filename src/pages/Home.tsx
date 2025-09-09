@@ -26,7 +26,7 @@ const Home = () => {
       {/* Contenido central */}
       <div className="flex-grow flex items-center justify-center relative">
         {/* Texto detrás */}
-        <h1 className="absolute top-[30%] text-[140px] font-bold  text-azul1 z-0 ml-[-%]">
+        <h1 className="absolute top-[30%] text-[140px] font-bold  text-azul1 z-6 ">
           BIENVENIDO A
         </h1>
 
@@ -44,7 +44,8 @@ const Home = () => {
       </div>
 
       {/* Navegación */}
-      <div className="flex-none w-full">
+      <div className="flex-none w-full z-20">
+        
         <Nav />
       </div>
       <Animation />

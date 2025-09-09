@@ -16,7 +16,8 @@ type Props = {
   onEdit: (car: TableData) => void
   refresh: boolean
 }
-const API_URL = import.meta.env.DEV;
+const API_URL = import.meta.env.VITE_URL_PROD;
+
 
 const DataTable = ({ onEdit, refresh }: Props) => {
   const [cars, setCars] = useState<TableData[]>([])
