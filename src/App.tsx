@@ -10,7 +10,7 @@ function App() {
     <>
     <div className="font-mon">
 
-      <BrowserRouter>
+      <BrowserRouter basename="/prueba-tecnica-frontend-franklyn">
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/main" Component={Main}/>
